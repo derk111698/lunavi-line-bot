@@ -6,8 +6,8 @@ import fetch from "node-fetch";
 const app = express();
 app.use(bodyParser.json());
 
-const LINE_CHANNEL_ACCESS_TOKEN = process.env.+ID7UW8lbm5H+sUYfSDhLxb8dLzDtNCaFuAtF8x86yX7MC2ROFXDxTYBMsEUBlpfh3v7sfUyEnjqpKGeIrsWHbX24w9I14ACik8cMgacVcsomFHvBt4TSNXxZRqUKvyuERztKqPmUym5zS1rhCyjzQdB04t89/1O/w1cDnyilFU=;
-const DIFY_API_KEY = process.env.app-mKyGUbFcG5OiM68etvSScOVE;
+const LINE_CHANNEL_ACCESS_TOKEN = process.env.LINE_CHANNEL_ACCESS_TOKEN;
+const DIFY_API_KEY = process.env.DIFY_API_KEY;
 
 const userConversations = {};
 
